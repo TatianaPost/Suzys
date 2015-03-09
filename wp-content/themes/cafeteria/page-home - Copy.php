@@ -21,7 +21,7 @@ get_header(); ?>
                         <div class="box">
                             <?php if($slide['title']){ ?><h2 class="firstfont caption colormain" style="color:#bf252c;"><?php echo $slide['title']; ?></h2><?php } ?>
                             <?php if($slide['description']){ ?><p class="text" style="font-size:18px;"><?php echo $slide['description']; ?></p><?php } ?>
-                            <?php if($slide['url']){ ?><a style="color:#bf252c;" href="<?php echo $slide['url']; ?>">Show More</a><?php } ?>
+                            <?php if($slide['url']){ ?><a style="color:#bf252c;" href="<?php echo $slide['url']; ?>">See our full catalog</a><?php } ?>
                         </div>
                     </li>
                 <?php endforeach; ?>

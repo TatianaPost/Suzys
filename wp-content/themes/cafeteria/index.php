@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <article class="story-time-line">
-        <h2 class="caption firstfont colormain"><?php _e('Suzy\'s Dessert Ideas','aletheme'); ?></h2>
+        <h2 class="caption firstfont colormain"><?php echo get_the_title(get_option( 'page_for_posts' )); //_e('Serving Suggestions','aletheme'); ?></h2>
         <div class="center-align">
             <div class="line-cake">
                 <div class="cake"></div>

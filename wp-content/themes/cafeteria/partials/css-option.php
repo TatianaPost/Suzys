@@ -1,3 +1,6 @@
+<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Jacques+Francois' rel='stylesheet' type='text/css'>
 <?php
 $ale_background = ale_get_option('background');
 $ale_headerfont = ale_get_option('headerfont');

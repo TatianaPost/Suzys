@@ -1041,7 +1041,8 @@ header .center-align > ul > li ul li.line {
   position: absolute;
   width: 680px;
   height: 296px;
-  top: 210px;
+  /*top: 210px;*/
+  top: 27%;
   left: 50%;
   margin-left: -340px;
 }
@@ -1125,8 +1126,10 @@ header .center-align > ul > li ul li.line {
   visibility: hidden;
   position: absolute;
   width: 680px;
-  height: 296px;
-  top: 210px;
+  /*height: 296px;
+  top: 210px;*/
+  height: auto;
+  top: 33%;
   left: 50%;
   margin-left: -340px;
   background: rgba(240, 236, 227, 0.8);
@@ -1134,9 +1137,10 @@ header .center-align > ul > li ul li.line {
   outline-offset: -10px;
   text-align: center;
   z-index: 2;
+  padding: 2em 0;
 }
 .slider .box .caption {
-  margin-top: 40px;
+  /*margin-top: 40px;*/
   padding: 0 40px;
   font-size: 33px;
 }
@@ -1276,18 +1280,21 @@ a.suzies:active { color:#d00101;}
 .our-services .content .col-3 .caption {
   position: absolute;
   font-size: 33px;
-  width: 100%;
+  /*width: 100%;*/
+  width: 95%;
   text-align: center;
   top: 128px;
+  line-height: 1em;
 }
 .our-services .content .col-3 .text {
-  margin-top: 15px;
+  /*margin-top: 15px;*/
+  margin-top: 2.5em;
   padding: 0 20px;
 }
 section {
   position: relative;
   width: 100%;
-  height: 705px;
+  /*height: 705px;*/
   background-position: 50% 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1304,7 +1311,7 @@ section .inner-border {
   left: 0;
   top: 5px;
   width: 100%;
-  height: 693px;
+  /*height: 693px;*/
   border-top: 1px dashed rgba(94, 60, 61, 0.7);
   border-bottom: 1px dashed rgba(94, 60, 61, 0.7);
   z-index: 2;
@@ -2767,6 +2774,7 @@ section .center-align .top {
 }
 .story-time-line .item {
   height: 160px;
+  margin-bottom: 4em;
 }
 .story-time-line .item:nth-child(2n) > div {
   float: left;
@@ -2780,7 +2788,8 @@ section .center-align .top {
   padding: 0 5px;
 }
 .story-time-line .item:nth-child(2n) .text .caption {
-  font-size: 33px;
+  /*font-size: 33px;*/
+  font-size: 26px;
   text-align: center;
 }
 .story-time-line .item:nth-child(2n) .text p {
@@ -2929,7 +2938,8 @@ section .center-align .top {
   padding: 0 5px;
 }
 .story-time-line .item:nth-child(2n+1) .text .caption {
-  font-size: 33px;
+  /*font-size: 33px;*/
+  font-size: 26px;
   text-align: center;
 }
 .story-time-line .item:nth-child(2n+1) .text p {
@@ -3342,7 +3352,8 @@ section .center-align .top {
   height: 28px;
   position: absolute;
   top: 0;
-  background: url("images/cake-blue.png") no-repeat center;
+  /*background: url("images/cake-blue.png") no-repeat center;*/
+  background: url("images/suzycake26x28.png") no-repeat center;
 }
 .story-open .right .content .line-cake .line {
   position: absolute;
@@ -3735,13 +3746,13 @@ blockquote div:before {
 background-color:#000000;
   
   background-position: 50% 0;
-  height: 760px;
+  /*height: 760px;*/
 }
 .footer h2 {
 		font-family: 'Roboto Slab', serif;
 }
 .footer .inner-border {
-  height: 749px;
+  /*height: 749px;*/
 }
 .footer .social_icons {
   text-align: center;
@@ -4446,6 +4457,9 @@ p.errorh1 {
   .our-services .content .col-3 .caption {
     font-size: 28px;
   }
+  .our-services .content .col-3 .text {
+    margin-top: 1.5em;
+  }
   .home-gallery .background img {
     width: 94.5%;
     height: 126px;
@@ -4545,7 +4559,8 @@ p.errorh1 {
   }
   .story-time-line .item:nth-child(2n) .text .caption,
   .story-time-line .item:nth-child(2n+1) .text .caption {
-    font-size: 27px;
+    /*font-size: 27px;*/
+    font-size: 22px;
   }
   .story-time-line .item:nth-child(2n) .circle .line,
   .story-time-line .item:nth-child(2n+1) .circle .line {
@@ -4721,13 +4736,14 @@ p.errorh1 {
   .slider .box {
     width: 400px;
     margin-left: -200px;
-    height: auto;
-    padding-bottom: 25px;
+    /*height: auto;
+    padding-bottom: 25px;*/
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
   }
   .slider .flex-direction-nav {
     width: 400px;
     margin-left: -200px;
+    top: 29%;
   }
   .slider .shadow {
     display: none;
@@ -4960,11 +4976,13 @@ p.errorh1 {
   .slider .box {
     width: 300px;
     margin-left: -150px;
-    top: 130px;
+    /*top: 130px;*/
+    top: 30%;
   }
   .slider .flex-direction-nav {
     width: 300px;
     margin-left: -150px;
+    top: 33%;
   }
   .home-gallery .filter-line {
     display: none;
