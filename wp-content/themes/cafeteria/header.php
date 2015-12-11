@@ -24,9 +24,9 @@
     <!-- Main Menu-->
     <div class="cf topbanner">
         <div style="margin-right:30px;">
-            <a class="hoversoc2" href="#"></a> &nbsp; 
+            <!-- <a class="hoversoc2" href="#"></a> &nbsp; 
             <a class="hoversoc1" href="#"></a> &nbsp; 
-            <a class="hoversoc" href="#"></a>
+            <a class="hoversoc" href="#"></a> -->
             <?php if ( has_nav_menu( 'top_banner_menu' ) ) {
                 wp_nav_menu(array(
                     'theme_location'=> 'top_banner_menu',

@@ -995,8 +995,9 @@ header .center-align > ul > li ul li.line {
   /*height: 206px;*/
   z-index: 1;
   position: relative;
-  background-position: 50% 0;
-  background-attachment: fixed;
+  /*background-position: 50% 0;*/
+  background-position: center top !important;
+  /*background-attachment: fixed;*/
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -4433,6 +4434,12 @@ p.errorh1 {
 .location_field {
   display: none;
 }
+
+.comments-closed {
+  display: none;
+}
+
+
 /* 1010
 /* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
 @media (max-width: 1010px) {
