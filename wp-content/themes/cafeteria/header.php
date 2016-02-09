@@ -12,6 +12,7 @@
     <script type="text/javascript">
         jQuery(function($) { $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank'); });
     </script>
+    <meta name="p:domain_verify" content="700465db7cdf4c557670d9737f36b2eb"/>
 </head>
 <body <?php body_class(); echo 'style="'; if(ale_get_meta('custombg')){echo 'background-image:url('.ale_get_meta('custombg').');';} if(ale_get_meta('custompagecss')){ echo ale_get_meta('custompagecss');}echo ' background-position:center;"'; ?> >
 
